@@ -27,7 +27,7 @@ const Review = () => {
 
   return (
     <div className='bg-white min-h-[36rem] relative  my-10'>
-      <img src="../../../public/tomato.jpg" className="h-60 w-60 hidden lg:flex absolute -left-28 top-0" />
+      <img src="../../../tomato.jpg" className="h-60 w-60 hidden lg:flex absolute -left-28 top-0" />
       <section className='embla_review relative space-y-10 p-6'>
         <div className='flex items-center justify-between '>
           <div className='  space-y-2'>

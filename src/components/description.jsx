@@ -7,7 +7,7 @@ const Description = () => {
 
   return (
     <div className=" relative overflow-hidden">
-      <img src="../../public/solad.jpg" className="h-40 w-40 hidden lg:flex absolute -right-16 top-80" />
+      <img src="../../solad.jpg" className="h-40 w-40 hidden lg:flex absolute -right-16 top-80" />
 
       <div className='max-w-5xl w-full mx-auto space-y-6 my-10 p-6'>
         <div className='bg-white flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8'>

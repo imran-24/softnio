@@ -63,7 +63,7 @@ const Popular = () => {
   return (
     <div className='bg-orange-100 relative'>
     
-      <img src="../../../public/spice.png" className="h-40 w-40 hidden lg:flex absolute -left-16 top-20 bg-transparent" />
+      <img src="../../../spice.png" className="h-40 w-40 hidden lg:flex absolute -left-16 top-20 bg-transparent" />
 
       <section className='embla relative space-y-10 p-6 py-16 '>
         <div className='flex items-center justify-between '>
