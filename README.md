@@ -1,13 +1,12 @@
-<h1>Project Title</h1>
+<h1>Restaurent Website</h1>
 <p>A responsive website built with React and Tailwind CSS, featuring animated UI, an autoplay carousel, and modern icons. Deployed on <a href="https://render.com" target="_blank">Render</a> for reliable performance.</p>
 
-<h2>Features</h2>
-<ul>
-  <li>Mobile-friendly design</li>
-  <li>Interactive UI with <code>@headlessui/react</code></li>
-  <li>Autoplay carousel using <code>embla-carousel-react</code></li>
-  <li>Modern icons with <code>lucide-react</code></li>
-</ul>
+<div style="text-align: center; margin-top: 20px;">
+    <a href="https://softnio.onrender.com" target="_blank" rel="noopener noreferrer" 
+       style="color: #3b82f6; font-weight: bold; text-decoration: none;">
+      View Deployed Site
+    </a>
+  </div>
 
 <h2>Technologies Used</h2>
 <ul>
@@ -31,38 +30,23 @@
 <h3 id="installation">Installation</h3>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/yourusername/your-repository.git</code></pre>
+    <pre><code>git clone https://github.com/imran-24/softnio.git</code></pre>
   </li>
   <li>Navigate to the project directory:
-    <pre><code>cd your-repository</code></pre>
+    <pre><code>cd softnio</code></pre>
   </li>
   <li>Install dependencies:
     <pre><code>npm install</code></pre>
   </li>
   <li>Start the development server:
-    <pre><code>npm start</code></pre>
+    <pre><code>npm run dev</code></pre>
   </li>
 </ol>
 
 <h2 id="usage">Usage</h2>
 <ul>
-  <li><strong>Development</strong>: <code>npm start</code> starts the development server at <code>http://localhost:3000</code>.</li>
+  <li><strong>Development</strong>: <code>npm run dev</code> starts the development server at <code>http://localhost:3000</code>.</li>
   <li><strong>Build</strong>: <code>npm run build</code> to create an optimized production build in the <code>build</code> folder.</li>
 </ul>
-
-<h2 id="contributing">Contributing</h2>
-<p>Contributions are welcome! Please follow these steps:</p>
-<ol>
-  <li>Fork the repository.</li>
-  <li>Create your feature branch: <code>git checkout -b feature/YourFeature</code>.</li>
-  <li>Commit your changes: <code>git commit -m 'Add YourFeature'</code>.</li>
-  <li>Push to the branch: <code>git push origin feature/YourFeature</code>.</li>
-  <li>Open a pull request.</li>
-</ol>
-
-<h2>Contributing</h2>
-<p>Feel free to open a pull request!</p>
-
-
 
 
