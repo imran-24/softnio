@@ -1,12 +1,12 @@
 import { Award, Boxes, Clock, Mail, MapPin, Phone, ShoppingBag } from "lucide-react";
 
 export const links = [
-  { label: "home", href: "#" },
-  { label: "about", href: "#" },
-  { label: "portfolio", href: "#" },
+  { label: "home", href: "#home" },
+  { label: "about", href: "#about" },
+  { label: "portfolio", href: "#portfolio" },
   { label: "clients", href: "#" },
-  { label: "blog", href: "#" },
-  { label: "contact", href: "#" },
+  { label: "blog", href: "#review" },
+  { label: "contact", href: "#contact" },
 ];
 
 export const services = [
@@ -174,4 +174,23 @@ export const foodDishes = [
       videoUrl: "https://www.youtube.com/watch?v=Zi_XLOBDo_Y"
     }
   ];
+  
+
+export const options =  [
+    {
+      "title": "About Us",
+      "description": "Discover a culinary journey crafted with passion and quality ingredients. We offer locally-inspired dishes with a unique, modern twist in a warm and welcoming atmosphere, perfect for every occasion. Our commitment to sustainable practices makes each meal a mindful choice.",
+      "name": "about"
+    },
+    {
+      "title": "Our Dining Experience",
+      "description": "Enjoy a cozy and inviting ambiance designed for relaxation and enjoyment. Our attentive service creates memorable dining moments with seasonal menus crafted from fresh, locally-sourced ingredients. Whether for intimate dinners or group celebrations, each visit is special.",
+      "name": "experience"
+    },
+    {
+      "title": "Get in Touch",
+      "description": "Reach us via phone, email, or social media for reservations or inquiries. Our friendly staff is ready to assist with any questions or special requests. Conveniently located with ample parking, we're open daily and excited to welcome you!",
+      "name": "contact"
+    }
+]
   

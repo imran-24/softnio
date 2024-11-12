@@ -1,6 +1,6 @@
-const About = () => {
+const Contact = () => {
   return (
-    <div className='relative w-full min-h-[30rem] flex items-center justify-center'>
+    <div id="contact"  className='relative w-full min-h-[30rem] flex items-center justify-center'>
       <img
         src='/images/about.jpg'
         alt='background'
@@ -61,4 +61,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;
